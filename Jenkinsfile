@@ -1,7 +1,6 @@
 pipeline {
     agent any
     parameters {
-        /
         string(name: 'FILE_PATH', description: 'Caminho para o arquivo de configuração')
     }
     stages {

@@ -13,12 +13,5 @@ pipeline {
 
             }
         }
-
-        stage ('Relatório de Testes') {
-            steps {
-                // Publicar relatórios de teste JUnit no Jenkins
-                junit '**/target/surefire-reports/*.xml'
-            }
-        }
     }
 }

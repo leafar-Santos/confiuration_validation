@@ -64,9 +64,8 @@ public class KnnarParameteresTest {
     @Test
     public void deveValidarPipelineOptions() {
         JsonNode dataPipelineOptions = jsonNode.get("dataPipeline");
-        assertThat(dataPipelineOptions.toString(), is("[{}]"));
+        assertThat(dataPipelineOptions.toString(), is("[]"));
     }
-
 
     @Test
     public void deveValidarPartitionBy() {

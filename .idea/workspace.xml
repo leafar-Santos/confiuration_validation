@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7e0fcc8-d14d-4d6d-9ef0-3e6449c6b585" name="Changes" comment="" />
+    <list default="true" id="a7e0fcc8-d14d-4d6d-9ef0-3e6449c6b585" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -35,12 +41,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.KnnarParameteresTest.executor": "Run",
+    "JUnit.knnarSuite.executor": "Run",
     "Maven.knnar_confiuration_validation [clean...].executor": "Run",
     "Maven.knnar_confiuration_validation [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/c10745q/IdeaProjects/knnar_confiuration_validation/src/main/resources/data_config",
+    "last_opened_file_path": "C:/Users/win11/Documents/Projetos/Java/knnar_confiuration_validation",
     "onboarding.tips.debug.path": "C:/Users/c10745q/IdeaProjects/knnar_confiuration_validation/src/main/java/br/com/serasa/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",

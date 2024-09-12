@@ -1,4 +1,4 @@
-package br.com.serasa.configurations;
+package serasa.configurations;
 
 import java.io.IOException;
 import java.io.InputStream;

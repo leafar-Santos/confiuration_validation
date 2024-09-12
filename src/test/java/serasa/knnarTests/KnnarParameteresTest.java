@@ -1,5 +1,5 @@
-package br.com.serasa.knnarTests;
-import br.com.serasa.configurations.FilePathConfiguration;
+package serasa.knnarTests;
+import serasa.configurations.FilePathConfiguration;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.BeforeClass;

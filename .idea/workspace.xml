@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a7e0fcc8-d14d-4d6d-9ef0-3e6449c6b585" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/serasa/suites/knnarSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/serasa/suites/knnarSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serasa/configurations/FilePathConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serasa/configurations/FilePathConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serasa/knnarTests/KnnarParameteresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serasa/knnarTests/KnnarParameteresTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.KnnarParameteresTest.executor": "Run",
     "JUnit.KnnarParameteresTest.executor": "Run",
     "JUnit.knnarSuite.executor": "Run",
     "Maven.knnar_confiuration_validation [clean...].executor": "Run",
@@ -49,7 +53,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/win11/Documents/Projetos/Java/knnar_confiuration_validation",
+    "last_opened_file_path": "C:/Users/win11/Documents/Projetos/Java/knnar_confiuration_validation/src/test",
     "onboarding.tips.debug.path": "C:/Users/c10745q/IdeaProjects/knnar_confiuration_validation/src/main/java/br/com/serasa/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -59,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\win11\Documents\Projetos\Java\knnar_confiuration_validation\src\test" />
       <recent name="C:\Users\c10745q\IdeaProjects\knnar_confiuration_validation\src\main\resources\data_config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">

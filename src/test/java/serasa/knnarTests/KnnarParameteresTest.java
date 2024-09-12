@@ -14,14 +14,14 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 public class KnnarParameteresTest {
 
-    static JsonNode jsonNode;
+     static JsonNode jsonNode;
 
     @BeforeClass
     public static void setup() throws IOException {
 
-        File file = new File(FilePathConfiguration.getFilePath());
+        File filePath = new File(FilePathConfiguration.getFilePath());
         ObjectMapper mapper = new ObjectMapper();
-        jsonNode = mapper.readTree(file);
+        jsonNode = mapper.readTree(filePath);
     }
 
     @Test
@@ -109,6 +109,6 @@ public class KnnarParameteresTest {
         assertThat(outputFmtData.get("encrypted").asText(), is("false"));
         assertThat(outputFmtData.get("optionsWrite").toString(), is("{}"));
 
-    }
 
+    }
 }

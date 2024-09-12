@@ -1,0 +1,54 @@
+{
+    "fields": [
+        [
+            "monotonically_increasing_id() as id",
+            "ID_EMAIL AS co_email",
+            "CONTATOS_ID AS co_contatos",
+            "EMAIL AS de_email",
+            "PRIORIDADE AS co_prioridade",
+            "EMAIL_SCORE AS co_email_score",
+            "EMAIL_PESSOAL AS fl_email_pessoal",
+            "EMAIL_DUPLICADO AS fl_email_duplicado",
+            "BLACKLIST AS fl_blacklist",
+            "ESTRUTURA AS fl_estrutura",
+            "STATUS_VT AS de_st_retorno_email",
+            "DOMINIO AS de_dominio",
+            "MAPAS AS qt_ocorrencia_email_base_fornecedor",
+            "PESO AS vl_peso",
+            "CADASTRO_ID AS co_cadastro",
+            "CASE WHEN DT_INCLUSAO is null THEN DATE_FORMAT(TO_DATE(\"01/01/2022\", \"dd/MM/yyyy\"), \"dd/MM/yyyy\") else DATE_FORMAT(DT_INCLUSAO, \"dd/MM/yyyy\") END As ts_inclusao",
+            "EMAIL_PROCON AS fl_email_procon",
+            "COMUNICADO_POSITIVO AS fl_comunicado_positivo",
+            "EID AS fl_eid",
+            "CNPJ_INFORMANTE AS nu_documento_informantee",
+            "id_FINALIDADE AS co_finalidade",
+            "dt_FINALIDADE_FORNECEDOR AS dt_finalidade_fornecedor",
+            "de_MEIO_CAPTACAO_FORNECEDOR AS de_meio_captacao_fornecedor",
+            "EMAIL_PRINCIPAL AS fl_email_principal",
+            "de_FINALIDADE_FORNECEDOR AS de_finalidade_fornecedor",
+            "COMUNICADO_INADIMPLENCIA AS fl_comunicado_inadimplencia"
+        ]
+    ],
+    "dataPipeline": [],
+    "partitionBy": [],
+    "dropDuplicates": [],
+    "inputDataOptions": {
+        "encrypted": "false",
+        "format": "JDBC",
+        "optionsRead": {
+            "partitionColumn": "ID_EMAIL",
+            "numPartitions": "20",
+            "url": "jdbc:sqlserver://{sql_server}:{sql_port};encrypt=true;databaseName={sql_database_name};user={sql_user};password={sql_pass};trustServerCertificate=true",
+            "driver": "com.microsoft.sqlserver.jdbc.SQLServerDriver",
+            "queryJDBC": "(SELECT ID_EMAIL, CONTATOS_ID, EMAIL, PRIORIDADE, EMAIL_SCORE, EMAIL_PESSOAL, EMAIL_DUPLICADO, BLACKLIST, ESTRUTURA, STATUS_VT, DOMINIO, MAPAS, PESO, CADASTRO_ID, DT_INCLUSAO, EMAIL_PROCON, COMUNICADO_POSITIVO, EID, CNPJ_INFORMANTE, id_FINALIDADE, dt_FINALIDADE_FORNECEDOR, de_MEIO_CAPTACAO_FORNECEDOR, EMAIL_PRINCIPAL, de_FINALIDADE_FORNECEDOR, COMUNICADO_INADIMPLENCIA from EMAIL) as t"
+        }
+    },
+    "bucketName": "datahub-cadastral-input-prod",
+    "outputFmtData": {
+        "format": "PARQUET",
+        "outputModeParquet": "overwrite",
+        "outputParquetPath": "s3://datahub-cadastral-input-prod/projetos/batimento/stage/email",
+        "encrypted": "false",
+        "optionsWrite": {}
+    }
+}

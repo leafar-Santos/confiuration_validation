@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7e0fcc8-d14d-4d6d-9ef0-3e6449c6b585" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/serasa/knnarTests/KnnarParameteresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/serasa/knnarTests/KnnarParameteresTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/serasa/suites/knnarSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/serasa/suites/knnarSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

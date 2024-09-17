@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7e0fcc8-d14d-4d6d-9ef0-3e6449c6b585" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/knnar_configuration_validation_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/knnar_confiuration_validation_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/serasa/configurations/FilePathConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serasa/configurations/FilePathConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/serasa/knnarTests/KnnarParameteresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serasa/knnarTests/KnnarParameteresTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/serasa/suites/knnarSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serasa/suites/KnnarSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,39 +40,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "Application.KnnarParameteresTest.executor": "Run",
-    "Application.KnnarSuite.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.knnarSuite (1).executor": "Run",
-    "Application.knnarSuite (2).executor": "Run",
-    "Application.knnarSuite.executor": "Run",
-    "JAR Application.knnar_configuration_validation-1.0-SNAPSHOT-jar-with-dependencies.jar.executor": "Run",
-    "JAR Application.knnar_configuration_validation-1.0-SNAPSHOT.jar.executor": "Run",
-    "JAR Application.original-knnar_configuration_validation-1.0-SNAPSHOT.jar.executor": "Run",
-    "JUnit.KnnarParameteresTest.executor": "Run",
-    "JUnit.KnnarSuite.executor": "Run",
-    "JUnit.java in knnar_configuration_validation.executor": "Run",
-    "JUnit.knnarSuite.executor": "Run",
-    "JUnit.knnarSuite.main.executor": "Run",
-    "Maven.knnar_confiuration_validation [clean...].executor": "Run",
-    "Maven.knnar_confiuration_validation [clean].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/win11/Documents/Projetos/Java/knnar_confiuration_validation",
-    "onboarding.tips.debug.path": "C:/Users/c10745q/IdeaProjects/knnar_confiuration_validation/src/main/java/br/com/serasa/Main.java",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.1150748",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KnnarParameteresTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KnnarSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.knnarSuite (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.knnarSuite (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.knnarSuite.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.knnar_configuration_validation-1.0-SNAPSHOT-jar-with-dependencies.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.knnar_configuration_validation-1.0-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.original-knnar_configuration_validation-1.0-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KnnarParameteresTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.KnnarSuite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.java in knnar_configuration_validation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.knnarSuite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.knnarSuite.main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.knnar_confiuration_validation [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.knnar_confiuration_validation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;gerar__jar&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/win11/Documents/Projetos/Java/knnar_configuration_validation&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/c10745q/IdeaProjects/knnar_confiuration_validation/src/main/java/br/com/serasa/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1150748&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\win11\Documents\Projetos\Java\knnar_confiuration_validation\src\test" />
@@ -143,7 +135,6 @@
       </method>
     </configuration>
     <configuration name="KnnarParameteresTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="knnar_configuration_validation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="serasa.knnarTests.*" />
@@ -152,6 +143,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="serasa.knnarTests" />
       <option name="MAIN_CLASS_NAME" value="serasa.knnarTests.KnnarParameteresTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />

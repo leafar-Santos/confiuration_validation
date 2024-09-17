@@ -10,7 +10,7 @@ pipeline {
             }
         }
 
-        stage('Executando testes de config') {
+        stage('Lendo arquivo de configuração') {
             steps {
                 script {
                     if (!params.FILE_PATH) {
@@ -19,7 +19,6 @@ pipeline {
                 }
                 // Executando o Maven usando o parâmetro FILE_PATH passado pelo Jenkins
                 bat "mvn clean test -DFILE_PATH=%FILE_PATH%"
-                bat 'mvn -Dtest=serasa.suites.KnnarSuite test'
             }
         }
 

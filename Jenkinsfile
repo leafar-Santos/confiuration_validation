@@ -19,7 +19,33 @@ pipeline {
                 }
                 // Executando o Maven usando o parâmetro FILE_PATH passado pelo Jenkins
                 bat "mvn clean test -DFILE_PATH=%FILE_PATH%"
+                bat 'mvn -Dtest=serasa.suites.KnnarSuite test'
             }
+        }
+
+        stage('Run Tests') {
+            steps {
+                script {
+                    echo 'Running JAR...'
+
+                    def result = bat(script: 'java -jar "C:\\Users\\win11\\Documents\\knnar_configuration_validation-1.0-SNAPSHOT.jar"', returnStdout: true).trim()
+
+                    echo "Test output:\n${result}"
+
+                    if (result.contains('Expected:')) {
+                        error('Test result indicates failure. Build failed.')
+                    }
+                }
+            }
+        }
+    }
+     post {
+
+        success {
+            echo 'Build and tests succeeded.'
+        }
+        failure {
+            echo 'Build or tests failed.'
         }
     }
 }

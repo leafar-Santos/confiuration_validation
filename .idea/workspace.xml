@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7e0fcc8-d14d-4d6d-9ef0-3e6449c6b585" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/knnar_configuration_validation_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/knnar_confiuration_validation_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serasa/configurations/FilePathConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serasa/configurations/FilePathConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serasa/knnarTests/KnnarParameteresTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serasa/knnarTests/KnnarParameteresTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/serasa/suites/knnarSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/serasa/suites/KnnarSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +37,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -39,9 +50,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Application.executor": "Run",
     "Application.KnnarParameteresTest.executor": "Run",
+    "Application.KnnarSuite.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.knnarSuite (1).executor": "Run",
+    "Application.knnarSuite (2).executor": "Run",
+    "Application.knnarSuite.executor": "Run",
+    "JAR Application.knnar_configuration_validation-1.0-SNAPSHOT-jar-with-dependencies.jar.executor": "Run",
+    "JAR Application.knnar_configuration_validation-1.0-SNAPSHOT.jar.executor": "Run",
+    "JAR Application.original-knnar_configuration_validation-1.0-SNAPSHOT.jar.executor": "Run",
     "JUnit.KnnarParameteresTest.executor": "Run",
+    "JUnit.KnnarSuite.executor": "Run",
+    "JUnit.java in knnar_configuration_validation.executor": "Run",
     "JUnit.knnarSuite.executor": "Run",
+    "JUnit.knnarSuite.main.executor": "Run",
     "Maven.knnar_confiuration_validation [clean...].executor": "Run",
     "Maven.knnar_confiuration_validation [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,11 +72,12 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/win11/Desktop",
+    "last_opened_file_path": "C:/Users/win11/Documents/Projetos/Java/knnar_confiuration_validation",
     "onboarding.tips.debug.path": "C:/Users/c10745q/IdeaProjects/knnar_confiuration_validation/src/main/java/br/com/serasa/Main.java",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.1150748",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
@@ -63,7 +87,12 @@
       <recent name="C:\Users\c10745q\IdeaProjects\knnar_confiuration_validation\src\main\resources\data_config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\win11\Documents\Projetos\Java\knnar_confiuration_validation\src\test\java" />
+      <recent name="C:\Users\win11\Documents\Projetos\Java\knnar_confiuration_validation\src\main" />
       <recent name="C:\Users\win11\Documents\Projetos\Java\knnar_confiuration_validation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -73,20 +102,82 @@
       <command value="mvn --version" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+  <component name="RunManager" selected="JUnit.KnnarParameteresTest">
+    <configuration name="KnnarSuite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serasa.suites.KnnarSuite" />
       <module name="knnar_configuration_validation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serasa.suites.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="KnnarSuite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serasa.suites.KnnarSuite" />
       <module name="knnar_configuration_validation" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serasa.suites.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KnnarSuite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="serasa.suites.KnnarSuite" />
+      <module name="knnar_configuration_validation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serasa.suites.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnnarParameteresTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="knnar_configuration_validation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="serasa.knnarTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="serasa.knnarTests" />
+      <option name="MAIN_CLASS_NAME" value="serasa.knnarTests.KnnarParameteresTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="knnar_configuration_validation-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/knnar_configuration_validation-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="knnar_configuration_validation-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/knnar_configuration_validation-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="original-knnar_configuration_validation-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/original-knnar_configuration_validation-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KnnarParameteresTest" />
+        <item itemvalue="Application.KnnarSuite" />
+        <item itemvalue="JAR Application.knnar_configuration_validation-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+        <item itemvalue="JAR Application.knnar_configuration_validation-1.0-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.original-knnar_configuration_validation-1.0-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

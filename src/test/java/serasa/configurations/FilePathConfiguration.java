@@ -9,7 +9,7 @@ public class FilePathConfiguration {
     private static String filePath;
 
     static {
-        // Tente obter o caminho do arquivo de uma variável de ambiente
+
         filePath = System.getenv("FILE_PATH");
 
         if (filePath == null || filePath.isEmpty()) {

@@ -33,18 +33,20 @@ pipeline {
 
                     if (result.contains('Expected:')) {
                         error('Test result indicates failure. Build failed.')
+
+                        success {
+                        echo 'Build and tests succeeded.'
+                         }
                     }
+
+                    else{
+                       failure {
+                        echo 'Build or tests failed.'
+                     }
+                   }
                 }
             }
         }
     }
-     post {
 
-        success {
-            echo 'Build and tests succeeded.'
-        }
-        failure {
-            echo 'Build or tests failed.'
-        }
-    }
 }
